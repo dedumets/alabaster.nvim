@@ -6,29 +6,30 @@ end
 vim.g.colors_name = "alabaster"
 
 local theme
+
 ---@diagnostic disable: undefined-global
 if vim.o.background == "dark" then
     -- terminal colors
-    vim.g.terminal_color_0 = "#000000"
-    vim.g.terminal_color_1 = "#d2322d"
-    vim.g.terminal_color_2 = "#6abf40"
-    vim.g.terminal_color_3 = "#cd974b"
-    vim.g.terminal_color_4 = "#217EBC"
-    vim.g.terminal_color_5 = "#9B3596"
-    vim.g.terminal_color_6 = "#178F79"
-    vim.g.terminal_color_7 = "#cecece"
-    vim.g.terminal_color_8 = "#333333"
-    vim.g.terminal_color_9 = "#c33c33"
-    vim.g.terminal_color_10 = "#95cb82"
-    vim.g.terminal_color_11 = "#dfdf8e"
-    vim.g.terminal_color_12 = "#71aed7"
-    vim.g.terminal_color_13 = "#cc8bc9"
-    vim.g.terminal_color_14 = "#47BEA9"
+    vim.g.terminal_color_0 = "#202020"
+    vim.g.terminal_color_1 = "#ff7171"
+    vim.g.terminal_color_2 = "#c3e88d"
+    vim.g.terminal_color_3 = "#ffb45e"
+    vim.g.terminal_color_4 = "#5f9dff"
+    vim.g.terminal_color_5 = "#c792ea"
+    vim.g.terminal_color_6 = "#89ddff"
+    vim.g.terminal_color_7 = "#e7e7e7"
+    vim.g.terminal_color_8 = "#474747"
+    vim.g.terminal_color_9 = "#ff5370"
+    vim.g.terminal_color_10 = "#c3e88d"
+    vim.g.terminal_color_11 = "#ffcb6b"
+    vim.g.terminal_color_12 = "#82aaff"
+    vim.g.terminal_color_13 = "#c792ea"
+    vim.g.terminal_color_14 = "#89ddff"
     vim.g.terminal_color_15 = "#ffffff"
 
     -- colors
-    local bg = "#0e1415"
-    local fg = "#cecece"
+    local bg = "#202020"
+    local fg = "#e7e7e7"
     local punct_fg = "#708b8d"
     local def_fg = "#71ade7"
     local const_fg = "#cc8bc9"
