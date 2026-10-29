@@ -39,7 +39,7 @@ if vim.o.background == "dark" then
 	local diffadd = "#6abf40"
 	local diffdelete = "#d2322d"
 	local diffchange = "#ec8013"
-	local statusline = "#162022"
+	local statusline = "#202020"
 	local comment = "#dfdf8e"
 	local dim_comment = "#696969"
 	local mistake = {
